@@ -1,0 +1,28 @@
+<p>loginpage works!</p>
+
+<form [formGroup]="myForm">
+  Value: {{ myForm.value | json }}
+
+  <div class="container glass" style="padding:50px;font-family: inherit;border-radius: 6px;">
+      <div class="row">
+          <div class="col-md-6 offset-md-3">
+<h2>Login</h2>
+  <div>
+      <label for="username">Username</label>
+      <input type='text'  class="form-control" formControlName="username">
+  </div>
+  <div >
+      <label for="password">Password</label>
+      <input type='password'   class="form-control" formControlName="password">
+  </div>
+
+  <div class="mt-2">
+      <button (click)="doLogin()" class="btn btn-primary">Login</button>
+  </div>
+
+          </div>
+      </div>
+  </div>
+
+</form>
+<p> End login Page!</p>
