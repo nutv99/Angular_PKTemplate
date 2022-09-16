@@ -2,6 +2,7 @@
  * Public API Surface of pickalllib
  */
 
+
 export * from './lib/pickalllib.service';
 export * from './lib/pickalllib.component';
 export * from './lib/pickalllib.module';
@@ -15,4 +16,6 @@ export * from './lib/service/projectconfig.service';
 
 export * from './lib/interceptor/httpinterceptor.interceptor';
 export * from './lib/module/material/material.module';
+export * from './lib/model/shopproject';
+
 export * from './lib/pages/login/login.component';
